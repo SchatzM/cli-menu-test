@@ -1,0 +1,21 @@
+{
+  "name": "menu-cli",
+  "version": "0.0.1",
+  "description": "test CLI menu",
+  "main": "menu.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "test",
+    "cli"
+  ],
+  "author": "MSR",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.0.0",
+    "clear": "^0.1.0",
+    "figlet": "^1.3.0",
+    "inquirer": "^7.1.0"
+  }
+}
