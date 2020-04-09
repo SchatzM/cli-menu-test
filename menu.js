@@ -10,7 +10,7 @@ function menú(){
     // Opciones del menú principal.
     let ops = ['Una', 'Dos', 'Tres', 'Cuatro', 'Cinco', 'Seis'];
     
-    //Limpia el terminal antes de mostrar lo generado
+    //Limpia el terminal antes de mostrar lo generado.
     clear();
 
     // Genera el título estilizado y el menú principal.
@@ -23,10 +23,10 @@ function menú(){
             return
         }
 
-        // En caso de no haber fallos muestra el título
+        // En caso de no haber fallos muestra el título.
         console.info(data);
 
-        // Genera el menú principal
+        // Genera el menú principal.
         inquirer.prompt([
             {
                 type: 'list',
