@@ -20,7 +20,7 @@ function menú(){
         if (err) {
             console.error('Something went wrong...');
             console.dir(err);
-            return;
+            return
         }
 
         // En caso de no haber fallos muestra el título
